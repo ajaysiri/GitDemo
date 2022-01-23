@@ -1,0 +1,52 @@
+
+
+
+Explain your experience about Customer experience and Customer Infrastructure.
+
+What are the UCS Manager Versions you worked.
+
+How HA in UCS manager(fabric interconnect).(active/passive   and active/active   need to explain)
+
+What is the flex pod.    (it is a integrated solution of cisco and netapp storage and it is a pre-designed and tested solution)
+
+What is the Port channel?  (port channel will be configured between Fex [nothing but iom(input output module in blade chassis)] and FI
+							also we can configure between ethernet uplink ports in FI to north bound switches example nxos-5000 or NXOS-7000)
+							by configuring portchannel we will achive redundancy,loadbalance
+How FI is configured.      (fresh deployment of FI from scratch by using setup command)
+
+What is service profile and what does it contain?                it is a template which contains the setting to configure blade or rack server
+																 after creating we will associate to blade or rack server using UCSM gui
+																 it acts as logical server (what we did configuration will be applied to physical server )
+																 if we did de-association then physical server comeout from all configured settings and the same 
+																 service profile we can assign to another server
+																 it contains,nic,hba,mac,mgmt ip,booting policy,maintenance policy,bios info,raid policy etc
+How do you prepare project plan of UCSM and Vsphere Up gradation.
+   esxi upgrade is very important ,go through vmware update manager video
+What are the issues faced while upgrading Esxi host.?
+What are the Migration Issues?         
+Diff b/w standard and DB switches.      
+Vmkernel uplink failed.. do Vm’s will communicate outside or not?
+Diff b/w HA and FT.
+Explain FT backend architecture
+If Ft enabled Esxi post recovery. What will be the status of the VM.
+
+
+) How does Cisco UCS differ from traditional Infrastructure?
+
+2) Working of HA in Cisco UCS and Fabric Interconnect.
+
+3) Do VMs will ping with each other if uplink port is down?
+
+4) What is VMware Kernel?
+
+5) How does Ping command work ?
+
+6) What is VIC and difference between CNA & VIC ?
+
+
+8) Configuration of Boot from SAN in service profile
+
+what hyperconverged inftrastructure
+
+how ping protocol works?
+
